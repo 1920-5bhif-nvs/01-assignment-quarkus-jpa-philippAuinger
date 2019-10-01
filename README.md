@@ -1,0 +1,1 @@
+# Quarkus JPA by Philipp Auinger
