@@ -103,8 +103,8 @@ public class ProductEndpoint {
     @Transactional
     public Response update(Product product){
         product = em.merge(product);
-        em.flush();
-        em.refresh(product);
+        //em.flush();
+        //em.refresh(product);
         return Response.ok().entity(product).build();
     }
 }
