@@ -1,7 +1,6 @@
 package at.htl.supermarketjpa.rest;
 
 
-import at.htl.supermarketjpa.business.ProductDAO;
 import at.htl.supermarketjpa.model.Product;
 
 import javax.inject.Inject;
