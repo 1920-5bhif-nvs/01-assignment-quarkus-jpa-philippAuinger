@@ -12,4 +12,7 @@ Erläuterung: Ein Supermarkt wird realisiert.
     docker run --name some-postgres -p 5432:5432 -e POSTGRES_PASSWORD=passme -d postgres --rm
 
 ## Supermarket CLD
-![CLD](quarkusJPA/CLD.png)
+![CLD](quarkusJPA/CLD.png)     
+
+## Supermarket ERD
+![ERD](quarkusJPA/ERD.png)
