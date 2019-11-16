@@ -11,6 +11,15 @@ Erläuterung: Ein Supermarkt wird realisiert.
 ## Docker Command (DB)
     docker run --name some-postgres -p 5432:5432 -e POSTGRES_PASSWORD=passme -d postgres --rm
 
+## Starten:
+    mvnw compile quarkus:dev
+
+## Swagger - UI - Übersicht:
+    http://localhost:8080/swagger-ui
+
+### Installiert mit:     
+    mvnw quarkus:add-extension -Dextensions="openapi"
+
 ## Supermarket Klassendiagramm
 ![CLD](quarkusJPA/CLD.png)     
 
