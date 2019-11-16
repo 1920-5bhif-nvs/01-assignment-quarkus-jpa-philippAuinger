@@ -11,7 +11,7 @@ Erläuterung: Ein Supermarkt wird realisiert.
 ## Docker Command (DB)
     docker run --name some-postgres -p 5432:5432 -e POSTGRES_PASSWORD=passme -d postgres --rm
 
-## Supermarket CLD
+## Supermarket Klassendiagramm
 ![CLD](quarkusJPA/CLD.png)     
 
 ## Supermarket ERD
