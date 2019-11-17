@@ -12,7 +12,7 @@ Erläuterung: Ein Supermarkt wird realisiert.
     docker run --name some-postgres -p 5432:5432 -e POSTGRES_PASSWORD=passme -d postgres --rm
 
 ## Starten:
-    mvnw compile quarkus:dev
+    mvn compile quarkus:dev
 
 ## Swagger - UI - Übersicht:
     http://localhost:8080/swagger-ui
