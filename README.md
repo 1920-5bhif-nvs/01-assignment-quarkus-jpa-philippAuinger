@@ -18,7 +18,7 @@ Erläuterung: Ein Supermarkt wird realisiert.
     http://localhost:8080/swagger-ui
 
 ### Installiert mit:     
-    mvnw quarkus:add-extension -Dextensions="openapi"
+    mvn quarkus:add-extension -Dextensions="openapi"
 
 ## Supermarket Klassendiagramm
 ![CLD](quarkusJPA/CLD.png)     
